@@ -1,0 +1,10 @@
+1. List down all the running containers
+
+command: docker ps
+CONTAINER ID   IMAGE                    COMMAND                  CREATED         STATUS         PORTS                NAMES
+73cc9c835aa4   docker/getting-started   "/docker-entrypoint.…"   6 minutes ago   Up 6 minutes   0.0.0.0:80->80/tcp   upbeat_brattain
+
+2. Stop docker container:
+----------------------------
+command: docker stop [Container id]
+eg.docker stop 73cc9c835aa4
